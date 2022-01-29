@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="18" failures="0" disabled="0" errors="0" time="0.018" timestamp="2021-11-08T11:13:05" name="AllTests">
+  <testsuite name="NegateTest" tests="2" failures="0" disabled="0" errors="0" time="0.001" timestamp="2021-11-08T11:13:05">
+    <testcase name="NegatesTrue" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="NegateTest" />
+    <testcase name="NegatesFalse" status="run" result="completed" time="0.001" timestamp="2021-11-08T11:13:05" classname="NegateTest" />
+  </testsuite>
+  <testsuite name="IncrementTest" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2021-11-08T11:13:05">
+    <testcase name="IncrementsZero" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="IncrementTest" />
+    <testcase name="IncrementManyNumbers" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="IncrementTest" />
+  </testsuite>
+  <testsuite name="ComputeSumTest" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2021-11-08T11:13:05">
+    <testcase name="OneAndOneIsTwo" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="ComputeSumTest" />
+    <testcase name="SumMultipleNumbers" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="ComputeSumTest" />
+  </testsuite>
+  <testsuite name="SwapTest" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2021-11-08T11:13:05">
+    <testcase name="SwapsTwoNumbers" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="SwapTest" />
+    <testcase name="SwapsManyNumbers" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="SwapTest" />
+  </testsuite>
+  <testsuite name="MakeSusTest" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2021-11-08T11:13:05">
+    <testcase name="EmptyStringGetsSuffix" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="MakeSusTest" />
+    <testcase name="NameGetsSuffix" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="MakeSusTest" />
+  </testsuite>
+  <testsuite name="GetLongestStringTest" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2021-11-08T11:13:05">
+    <testcase name="EmptyVectorReturnsNullptr" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="GetLongestStringTest" />
+    <testcase name="ReturnsLongestOfSeveralUnsortedStrings" status="run" result="completed" time="0" timestamp="2021-11-08T11:13:05" classname="GetLongestStringTest" />
+  </testsuite>
+  <testsuite name="MainTest" tests="6" failures="0" disabled="0" errors="0" time="0.017" timestamp="2021-11-08T11:13:05">
+    <testcase name="Negate" status="run" result="completed" time="0.004" timestamp="2021-11-08T11:13:05" classname="MainTest" />
+    <testcase name="Increment" status="run" result="completed" time="0.004" timestamp="2021-11-08T11:13:05" classname="MainTest" />
+    <testcase name="ComputeSum" status="run" result="completed" time="0.003" timestamp="2021-11-08T11:13:05" classname="MainTest" />
+    <testcase name="Swap" status="run" result="completed" time="0.002" timestamp="2021-11-08T11:13:05" classname="MainTest" />
+    <testcase name="MakeSus" status="run" result="completed" time="0.002" timestamp="2021-11-08T11:13:05" classname="MainTest" />
+    <testcase name="GetLongestString" status="run" result="completed" time="0.002" timestamp="2021-11-08T11:13:05" classname="MainTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+---
+MainSourceFile:  '/home/crimsongnome/Desktop/lab-10-crimsonGnome/prob01/pointer_utils.cc'
+Diagnostics:
+  - DiagnosticName:  modernize-loop-convert
+    DiagnosticMessage:
+      Message:         use range-based for loop instead
+      FilePath:        pointer_utils.cc
+      FileOffset:      939
+      Replacements:
+        - FilePath:        pointer_utils.cc
+          Offset:          943
+          Length:          37
+          ReplacementText: '(auto & string : *strings)'
+        - FilePath:        pointer_utils.cc
+          Offset:          998
+          Length:          14
+          ReplacementText: string
+        - FilePath:        pointer_utils.cc
+          Offset:          1067
+          Length:          14
+          ReplacementText: string
+...
